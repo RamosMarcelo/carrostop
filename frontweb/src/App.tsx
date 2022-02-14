@@ -1,13 +1,10 @@
-import Navbar from 'components/Navbar';
 import './assets/styles/custom.scss';
 import './App.css';
+import Routes from 'Routes';
 
 const App = () => {
   return (
-    <>
-      <Navbar />
-      <h1>Hello CarrosTop</h1>
-    </>
+    <Routes />
   );
 };
 
